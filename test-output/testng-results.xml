@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18421" started-at="2018-11-22T16:39:06Z" finished-at="2018-11-22T16:39:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18421" started-at="2018-11-22T16:39:06Z" finished-at="2018-11-22T16:39:25Z">
+      <class name="com.test.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.LoginTest@20322d26]" name="setUp" is-config="true" duration-ms="7973" started-at="2018-11-22T22:09:06Z" finished-at="2018-11-22T22:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.test.LoginTest@20322d26]" name="verifyTitle" duration-ms="25" started-at="2018-11-22T22:09:14Z" finished-at="2018-11-22T22:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.LoginTest@20322d26]" name="tearDown" is-config="true" duration-ms="777" started-at="2018-11-22T22:09:14Z" finished-at="2018-11-22T22:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.LoginTest@20322d26]" name="setUp" is-config="true" duration-ms="8674" started-at="2018-11-22T22:09:15Z" finished-at="2018-11-22T22:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyButtonDisplay()[pri:2, instance:com.test.LoginTest@20322d26]" name="verifyButtonDisplay" duration-ms="72" started-at="2018-11-22T22:09:24Z" finished-at="2018-11-22T22:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyButtonDisplay -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.LoginTest@20322d26]" name="tearDown" is-config="true" duration-ms="864" started-at="2018-11-22T22:09:24Z" finished-at="2018-11-22T22:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
