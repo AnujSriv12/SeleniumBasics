@@ -21,7 +21,7 @@ public class LoginTest {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.get("https://www.facebook.com/");
-		log.info("Launching Facebook");
+		log.info("****Launching Facebook***");
 		}
 	
 	@Test(priority=1)
