@@ -9,9 +9,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LoginTest {
+public class SignUpTest {
 	WebDriver driver = null;
-	Logger log = Logger.getLogger(LoginTest.class);
+	Logger log = Logger.getLogger(SignUpTest.class);
 	
 	@BeforeMethod
 	public void setUp(){
@@ -35,8 +35,7 @@ public class LoginTest {
 	public void verifyButtonDisplay(){
 		log.info("*******Verifying Button*********");
 		boolean btn = driver.findElement(By.xpath("//input[@value='Log In']")).isDisplayed();
-		Assert.assertTrue(btn, "Button is displayed");
-		log.info("*******Button verified*********");
+		Assert.assertTrue(btn, "Button is displayed");;
 	}
 	
 	@AfterMethod
